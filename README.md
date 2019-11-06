@@ -1,6 +1,6 @@
 # Binary Search Tree
 
-[![Build Status](https://travis-ci.org/jeffreyvr/BinarySearchTree.svg?branch=master)](https://travis-ci.org/jeffreyvr/ShortestPath)
+[![Build Status](https://travis-ci.org/jeffreyvr/BinarySearchTree.svg?branch=master)](https://travis-ci.org/jeffreyvr/BinarySearchTree)
 
 An Binary Search Tree algorithm.
 
