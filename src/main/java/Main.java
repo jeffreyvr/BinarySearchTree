@@ -19,5 +19,8 @@ public class Main {
         System.out.println("Found: " + tree.find(tree.root, 4));
         System.out.println("The minimum value: " + tree.findMin(tree.root));
         System.out.println("The maximum value: " + tree.findMax(tree.root));
+
+        tree.remove(4);
+        System.out.println("Result after removing 4: " + tree.find(tree.root, 4));
     }
 }

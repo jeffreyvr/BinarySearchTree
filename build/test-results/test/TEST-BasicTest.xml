@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="BasicTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-11-06T22:40:52" hostname="MacBook-Pro-van-Jeffrey.local" time="0.004">
+<testsuite name="BasicTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-11-08T16:55:59" hostname="MacBook-Pro-van-Jeffrey.local" time="0.007">
   <properties/>
   <testcase name="test_should_return_correct_min_in_tree" classname="BasicTest" time="0.002"/>
   <testcase name="test_should_return_null_on_looking_for_non_existing_node" classname="BasicTest" time="0.0"/>
   <testcase name="test_should_return_correct_max_in_tree" classname="BasicTest" time="0.0"/>
-  <testcase name="test_assert_that_node_exists_after_creating" classname="BasicTest" time="0.0"/>
-  <testcase name="test_should_find_node" classname="BasicTest" time="0.001"/>
+  <testcase name="test_assert_that_node_exists_after_creating" classname="BasicTest" time="0.001"/>
+  <testcase name="test_should_find_node" classname="BasicTest" time="0.0"/>
+  <testcase name="test_assert_removal_works_as_correctly" classname="BasicTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

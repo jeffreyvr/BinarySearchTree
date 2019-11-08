@@ -55,4 +55,18 @@ public class BasicTest {
         assertEquals(tree.find(tree.root,100).value, 100);
     }
 
+    @Test
+    public void test_assert_removal_works_as_correctly() {
+        this.setup();
+
+        tree.remove(4);
+
+        assertNull(tree.find(tree.root, 4));
+        assertNull(tree.find(tree.root, 6).leftChild);
+
+        tree.remove(2);
+
+        assertEquals(tree.root.value, 6);
+    }
+
 }
