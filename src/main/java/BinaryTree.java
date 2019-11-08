@@ -40,7 +40,7 @@ public class BinaryTree {
     }
 
     /**
-     * Find a node with focusNode as staring point.
+     * Find a node with focusNode as starting point.
      * 
      * @param focusNode
      * @param value
@@ -103,9 +103,9 @@ public class BinaryTree {
      * @return true or false
      */
     public boolean remove(Integer key) {
-        Node focusNode = root;
-        Node parent = root;
-        boolean isItALeftChild = true;
+        Node focusNode          = root;
+        Node parent             = root;
+        boolean isItALeftChild  = true;
 
         while (focusNode.value != key) {
             parent = focusNode;
@@ -142,6 +142,7 @@ public class BinaryTree {
             }
         } else {
             Node replacement = getReplacementNode(focusNode);
+
             if (focusNode == root) {
                 root = replacement;
             } else if (isItALeftChild) {
@@ -162,7 +163,7 @@ public class BinaryTree {
      * @return replacement node
      */
     public Node getReplacementNode(Node replacedNode) {
-        Node replacementParent = replacedNode;
+        Node replacementParent  = replacedNode;
         Node replacement        = replacedNode;
         Node focusNode          = replacedNode.rightChild;
 
